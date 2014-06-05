@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CB8D8B9193FEF8F00CA6B69 /* RIBYUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB8D8B7193FEF8F00CA6B69 /* RIBYUViewController.m */; };
+		3CB8D8BA193FEF8F00CA6B69 /* RIBYUViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CB8D8B8193FEF8F00CA6B69 /* RIBYUViewController.xib */; };
+		3CB8D8BE193FEF9F00CA6B69 /* RIUtahViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB8D8BC193FEF9F00CA6B69 /* RIUtahViewController.m */; };
+		3CB8D8BF193FEF9F00CA6B69 /* RIUtahViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CB8D8BD193FEF9F00CA6B69 /* RIUtahViewController.xib */; };
+		3CB8D8C2193FF2E000CA6B69 /* byu.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB8D8C0193FF2E000CA6B69 /* byu.png */; };
+		3CB8D8C3193FF2E000CA6B69 /* utah.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB8D8C1193FF2E000CA6B69 /* utah.png */; };
+		3CB8D8C6193FF39600CA6B69 /* BYU@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB8D8C4193FF39600CA6B69 /* BYU@2x.png */; };
+		3CB8D8C7193FF39600CA6B69 /* UTAH@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB8D8C5193FF39600CA6B69 /* UTAH@2X.png */; };
 		713E083A193E77E9006CA563 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713E0839193E77E9006CA563 /* Foundation.framework */; };
 		713E083C193E77E9006CA563 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713E083B193E77E9006CA563 /* CoreGraphics.framework */; };
 		713E083E193E77E9006CA563 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713E083D193E77E9006CA563 /* UIKit.framework */; };
@@ -32,6 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3CB8D8B6193FEF8F00CA6B69 /* RIBYUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIBYUViewController.h; sourceTree = "<group>"; };
+		3CB8D8B7193FEF8F00CA6B69 /* RIBYUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIBYUViewController.m; sourceTree = "<group>"; };
+		3CB8D8B8193FEF8F00CA6B69 /* RIBYUViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RIBYUViewController.xib; sourceTree = "<group>"; };
+		3CB8D8BB193FEF9F00CA6B69 /* RIUtahViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIUtahViewController.h; sourceTree = "<group>"; };
+		3CB8D8BC193FEF9F00CA6B69 /* RIUtahViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIUtahViewController.m; sourceTree = "<group>"; };
+		3CB8D8BD193FEF9F00CA6B69 /* RIUtahViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RIUtahViewController.xib; sourceTree = "<group>"; };
+		3CB8D8C0193FF2E000CA6B69 /* byu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = byu.png; sourceTree = "<group>"; };
+		3CB8D8C1193FF2E000CA6B69 /* utah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = utah.png; sourceTree = "<group>"; };
+		3CB8D8C4193FF39600CA6B69 /* BYU@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BYU@2x.png"; sourceTree = "<group>"; };
+		3CB8D8C5193FF39600CA6B69 /* UTAH@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UTAH@2X.png"; sourceTree = "<group>"; };
 		713E0836193E77E9006CA563 /* Rivals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rivals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		713E0839193E77E9006CA563 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		713E083B193E77E9006CA563 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -109,7 +127,17 @@
 			children = (
 				713E0848193E77E9006CA563 /* RIAppDelegate.h */,
 				713E0849193E77E9006CA563 /* RIAppDelegate.m */,
+				3CB8D8B6193FEF8F00CA6B69 /* RIBYUViewController.h */,
+				3CB8D8B7193FEF8F00CA6B69 /* RIBYUViewController.m */,
+				3CB8D8B8193FEF8F00CA6B69 /* RIBYUViewController.xib */,
+				3CB8D8BB193FEF9F00CA6B69 /* RIUtahViewController.h */,
+				3CB8D8BC193FEF9F00CA6B69 /* RIUtahViewController.m */,
+				3CB8D8BD193FEF9F00CA6B69 /* RIUtahViewController.xib */,
+				3CB8D8C0193FF2E000CA6B69 /* byu.png */,
+				3CB8D8C1193FF2E000CA6B69 /* utah.png */,
 				713E084B193E77E9006CA563 /* Images.xcassets */,
+				3CB8D8C4193FF39600CA6B69 /* BYU@2x.png */,
+				3CB8D8C5193FF39600CA6B69 /* UTAH@2X.png */,
 				713E0840193E77E9006CA563 /* Supporting Files */,
 			);
 			path = Rivals;
@@ -220,8 +248,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CB8D8C2193FF2E000CA6B69 /* byu.png in Resources */,
+				3CB8D8BA193FEF8F00CA6B69 /* RIBYUViewController.xib in Resources */,
+				3CB8D8C7193FF39600CA6B69 /* UTAH@2X.png in Resources */,
+				3CB8D8BF193FEF9F00CA6B69 /* RIUtahViewController.xib in Resources */,
 				713E0844193E77E9006CA563 /* InfoPlist.strings in Resources */,
+				3CB8D8C3193FF2E000CA6B69 /* utah.png in Resources */,
 				713E084C193E77E9006CA563 /* Images.xcassets in Resources */,
+				3CB8D8C6193FF39600CA6B69 /* BYU@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CB8D8B9193FEF8F00CA6B69 /* RIBYUViewController.m in Sources */,
+				3CB8D8BE193FEF9F00CA6B69 /* RIUtahViewController.m in Sources */,
 				713E0846193E77E9006CA563 /* main.m in Sources */,
 				713E084A193E77E9006CA563 /* RIAppDelegate.m in Sources */,
 			);
@@ -438,6 +474,7 @@
 				713E0864193E77E9006CA563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		713E0865193E77E9006CA563 /* Build configuration list for PBXNativeTarget "RivalsTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +483,7 @@
 				713E0867193E77E9006CA563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
