@@ -29,7 +29,7 @@
     
     RIUtahStateViewController *utahStateView = [[RIUtahStateViewController alloc]init];
     utahStateView.tabBarItem.title = @"Utah State";
-    utahStateView.tabBarItem.image = [UIImage imageNamed:@"UTAH"];
+    utahStateView.tabBarItem.image = [UIImage imageNamed:@"utahstate"];
     utahStateView.title = @"Utah State";
     
     UITabBarController *tabBarController = [[UITabBarController alloc]init];
