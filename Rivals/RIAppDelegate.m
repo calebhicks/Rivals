@@ -9,6 +9,7 @@
 #import "RIAppDelegate.h"
 #import "RIBYUViewController.h"
 #import "RIUtahViewController.h"
+#import "RIUtahStateViewController.h"
 
 @implementation RIAppDelegate
 
@@ -26,9 +27,14 @@
     utahView.tabBarItem.image = [UIImage imageNamed:@"UTAH"];
     utahView.title = @"Utah";
     
+    RIUtahStateViewController *utahStateView = [[RIUtahStateViewController alloc]init];
+    utahStateView.tabBarItem.title = @"Utah State";
+    utahStateView.tabBarItem.image = [UIImage imageNamed:@"UTAH"];
+    utahStateView.title = @"Utah State";
+    
     UITabBarController *tabBarController = [[UITabBarController alloc]init];
     
-    tabBarController.viewControllers = @[byuView, utahView];
+    tabBarController.viewControllers = @[byuView, utahView, utahStateView];
     
     [self.window setRootViewController:tabBarController];
     
